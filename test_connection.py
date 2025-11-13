@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv(override=False)
 
-OPENAI_API_BASE = "https://app-clinical-classifier.cloud.aau.dk/v1"
-OPENAI_API_KEY  = "token-bd2ed34ad7f533587784967938dffb98"
+OPENAI_API_BASE = "https://app-clinical-trial.cloud.aau.dk/v1"
+OPENAI_API_KEY  = "token-99898157f592e2bd278a49fa1a4a0ee3"
 
 
 if not OPENAI_API_BASE or not OPENAI_API_KEY:

@@ -30,9 +30,8 @@ from instructions import SYSTEM_PROMPT, GuidedGeneration
 # ==========================================
 load_dotenv(override=False)
 
-OPENAI_API_BASE = "https://app-clinical-classifier.cloud.aau.dk/v1"
-OPENAI_API_KEY  = "token-bd2ed34ad7f533587784967938dffb98"
-
+OPENAI_API_BASE = "https://app-clinical-trial.cloud.aau.dk/v1"
+OPENAI_API_KEY  = "token-99898157f592e2bd278a49fa1a4a0ee3"
 
 # Toggle guided generation (structured output) via env or default True
 USE_GUIDED_GENERATION = True
